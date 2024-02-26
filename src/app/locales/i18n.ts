@@ -1,3 +1,5 @@
+"use server";
+
 import i18n from "i18next";
 import { headers } from "next/headers";
 // the translations
@@ -19,16 +21,20 @@ const resources = {
     }
 };
 
-const headersList = headers();
-const domain = headersList.get("x-forwarded-host") || ""
-const locale = (domain.includes(".nl") ? "nl" : "en")
+async function initLanguage() {
+    const headersList = headers();
+    const domain = headersList.get("x-forwarded-host") || ""
+    const locale = (domain.includes(".nl") ? "nl" : "en")
+    i18n.changeLanguage(locale)
+}
 
 
 i18n.init({
     resources,
-    lng: locale,
+    lng: "en",
     keySeparator: false,
     interpolation: {
         escapeValue: false // react already safes from xss
     }
 });
+initLanguage()
