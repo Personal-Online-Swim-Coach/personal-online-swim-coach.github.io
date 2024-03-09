@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
 import "./globals.css";
-import "./locales/i18n";
+import "../../i18n";
 
 const inter = Figtree({subsets: ['latin']});
 
@@ -12,11 +12,13 @@ export const metadata: Metadata = {
 
 function RootLayout({
   children,
+  params: {locale}
 }: Readonly<{
   children: React.ReactNode;
+  params: {locale: string};
 }>) {
   return (
-    <html lang="nl">
+    <html lang={locale}>
       <body className={inter.className}>
         {children}
         </body>
