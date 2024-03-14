@@ -7,13 +7,12 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full h-24 bg-white 800 sticky top-0 z-50">
-        <div className="container mx-auto px-4 h-full">
+        <div className="mx-auto px-4 h-full w-full">
           <div className="flex items-center h-full">
-            <div className="flex-grow">
-                <Link href="/">
+            <div className="flex-grow content-start">
+              <Link href="/">
                 <img className="h-16" src={Logo.src}></img>
-                </Link>
-                
+              </Link>   
             </div>
             <ul className="hidden md:flex gap-x-16 text-white">
               <li>
