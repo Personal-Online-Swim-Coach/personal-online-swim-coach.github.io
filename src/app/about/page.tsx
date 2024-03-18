@@ -4,17 +4,17 @@ import wouter from "../../../public/wouter.jpg";
 export default function About() {
   return (
     <main className="flex min-h-screen flex-col items-center">
-      <div className="flex flex-row p-24 gap-16 bg-grey">
-        <p className="text-2xl w-1/2">
-At Online Swim Coach we want to improve the level of coaching for all swimmers. We think expert knowledge should be available for all swimmers around the globe. Whether you are a talented swimmer, motivated triathlete or a regular swimming enthusiast, we want to guide you towards your goals. At Online Swim Coach we only work with experienced and scientifically educated coaches. As such we think we offer the best guidance for continuing your swimming journey.</p>
-        <div className="w-1/2 flex flex-col gap-8">
-            <p className="text-2xl"> <span className="text-5xl text-orange">1</span> We only go for the best. Onze coaches zijn wetenschappelijk opgeleid en hebben ruime ervaring in de praktijk.</p>
-            <p className="text-5xl text-orange">2</p>
-            <p className="text-5xl text-orange">3</p>
-
-        </div>
+      <div className="flex flex-row p-16 bg-grey">
+        <p className="text-lg w-full columns-2">
+            At Personal Online Swim Coach, we recognize the importance of knowledge of performance (KP) in refining swimming technique. KP involves providing athletes with detailed information about their execution of a skill, focusing on technique and movement patterns rather than just the outcome. Drawing from research in sports psychology and motor learning, we integrate KP into our feedback sessions to enhance learning and skill acquisition.
+            Scientific studies have demonstrated the effectiveness of detailed feedback on technique and movement quality in improving performance. By highlighting both correct and incorrect aspects of performance, athletes gain a deeper understanding of their actions and can make necessary adjustments.
+            Furthermore, our subscription-based model empowers athletes through self-controlled feedback. Athletes have the autonomy to determine when and how they receive feedback, allowing them to actively participate in their learning process. This approach promotes greater engagement, motivation, and learning outcomes.
+            By setting clear objectives and identifying specific areas for improvement, we collaboratively create a roadmap for the journey ahead and ignite the power of goal-directed behaviour . This proactive approach not only enhances motivation but also optimizes the learning process, ensuring that each session is tailored to the individual's needs and aspirations.
+            By giving athletes control over their feedback intake, we promote autonomy, self-regulation, and intrinsic motivation. Athletes feel more invested in their development, leading to increased engagement in skill refinement and improvement.
+            Join us at now and experience the benefits of knowledge-driven performance enhancement. Dive into a world of personalized feedback and take control of your swimming journey. Together, let's unlock your full potential in the water.
+        </p>            
       </div>
-      <div className="bg-white w-full content-center p-24">
+      <div className="bg-white w-full content-center p-16 pb-24">
         <h1 className="text-dark font-bold text-5xl mb-16 w-full text-center">Our coaches</h1>
         <div className="flex flex-row relative gap-16 pb-24">
             <div className="w-64 h-96 bg-grey absolute left-0 top-16 rounded-md"/>
@@ -44,7 +44,7 @@ At Online Swim Coach we want to improve the level of coaching for all swimmers. 
                 <p className="text-3xl font-bold">Wouter Arnoldus</p>
                 <p className="text-xl italic pb-8">Owner & Coach</p>
                 <p className="text-lg pb-8">
-                At age 25 Wouter has already quite an extensive experience as swimming coach. After starting at his own local club as a volunteer age group coach, Wouter has worked for several of the top Dutch swimming teams as both age group and head coach. Wouter has helped numerous swimmers win Dutch (age group) individual and relay titles.</p>
+                At age 26 Wouter has already quite an extensive experience as swimming coach. After starting at his own local club as a volunteer age group coach, Wouter has worked for several of the top Dutch swimming teams as both age group and head coach. Wouter has helped numerous swimmers win Dutch (age group) individual and relay titles.</p>
                 <div className="flex flex-row gap-8 pb-4 w-full">
                 
                     <svg className="w-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

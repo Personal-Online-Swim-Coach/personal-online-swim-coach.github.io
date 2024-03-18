@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 import zwem1 from "../../public/home-bar-1.jpg";
 import zwem2 from "../../public/home-bar-2.jpg";
 import zwem3 from "../../public/home-bar-3.jpg";
@@ -17,7 +17,7 @@ export default function Home() {
                 <a href="mailto:info@personalonlineswimcoach.com">Sign up</a>
               </div>
               <div className="border-blue-primary border-2 w-48 py-4 rounded-md text-blue-primary cursor-pointer">
-                Learn more
+                <Link href="/plans">Learn more</Link>
               </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ export default function Home() {
             </div>
             <div className="flex flex-row mt-8 gap-x-8">
               <a href="mailto:info@personalonlineswimcoach.com" className="bg-orange min-w-fit rounded p-4 text-white text-xl shadow-xl flex-grow">Sign up</a> 
-              <p className="text-orange text-xl w-fit my-auto ">Learn more</p> 
+              <Link href="/plans" className="text-orange text-xl w-fit my-auto ">Learn more</Link> 
             </div>
           </div>
           <div className="bg-blue-darkest shadow-lg shadow-blue-darkest rounded-xl p-8">
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
             <div className="flex flex-row mt-8 gap-x-8">
               <a href="mailto:info@personalonlineswimcoach.com" className="bg-orange min-w-fit rounded p-4 text-white text-xl shadow-xl flex-grow">Sign up</a>
-              <p className="text-orange text-xl w-fit my-auto ">Learn more</p> 
+              <Link href="/plans" className="text-orange text-xl w-fit my-auto ">Learn more</Link> 
             </div>
           </div>
         </div>
@@ -104,8 +104,16 @@ export default function Home() {
           </div>
           <div className="w-1/3">
             <div className="flex flex-row pb-4">
-            <svg className="w-12 mr-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path className="stroke-orange fill-orange w-8" fill-rule="evenodd" clip-rule="evenodd" d="M12.4493 3.07772C12.1667 2.93543 11.8333 2.93535 11.5505 3.07751L0.550856 8.60778C-0.182453 8.97646 -0.18386 10.0228 0.548455 10.3934L5 12.6465V17C5 19.2091 6.79086 21 9 21H15C17.2091 21 19 19.2091 19 17V12.6352L22 11.124V14C22 14.5523 22.4477 15 23 15C23.5523 15 24 14.5523 24 14V9.62991C24 9.20695 23.8394 8.81077 23.4424 8.61095C19.7781 6.76658 16.1137 4.92212 12.4493 3.07772ZM11.9995 5.09035L3.22034 9.5042L11.9742 13.9349L20.7693 9.50453L11.9995 5.09035ZM7 17V13.6588L11.5216 15.9474C11.8049 16.0908 12.1394 16.0911 12.423 15.9482L17 13.6427V17C17 18.1046 16.1046 19 15 19H9C7.89543 19 7 18.1046 7 17Z" fill="#0F0F0F"/>
+              <svg className="w-11 mr-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <g>
+                  <path className="stroke-orange fill-orange" d="M333.187,237.405c32.761-23.893,54.095-62.561,54.095-106.123C387.282,58.893,328.389,0,256,0
+                    S124.718,58.893,124.718,131.282c0,43.562,21.333,82.23,54.095,106.123C97.373,268.57,39.385,347.531,39.385,439.795
+                    c0,39.814,32.391,72.205,72.205,72.205H400.41c39.814,0,72.205-32.391,72.205-72.205
+                    C472.615,347.531,414.627,268.57,333.187,237.405z M164.103,131.282c0-50.672,41.225-91.897,91.897-91.897
+                    s91.897,41.225,91.897,91.897S306.672,223.18,256,223.18S164.103,181.954,164.103,131.282z M400.41,472.615H111.59
+                    c-18.097,0-32.82-14.723-32.82-32.821c0-97.726,79.504-177.231,177.231-177.231s177.231,79.504,177.231,177.231
+                    C433.231,457.892,418.508,472.615,400.41,472.615z"/>
+                </g>
               </svg>
               <p className="text-4xl font-bold leading-loose align-middle">Individual</p>
             </div>
