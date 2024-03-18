@@ -31,9 +31,11 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-            <div className="bg-blue-primary text-white text-xl rounded-md p-2 px-4 ml-16">
+            <a href="mailto:info@personalonlineswimcoach.com">
+              <div className="bg-blue-primary text-white text-xl rounded-md p-2 px-4 ml-16">
                 Sign up
-            </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
