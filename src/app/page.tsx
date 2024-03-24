@@ -16,9 +16,6 @@ export default function Home() {
               <div className="bg-blue-primary text-xl w-48 py-4 rounded-md cursor-pointer text-white">
                 <a href="mailto:info@personalonlineswimcoach.com">Sign up</a>
               </div>
-              <div className="border-blue-primary border-2 w-48 py-4 rounded-md text-blue-primary cursor-pointer">
-                <Link href="/plans">Learn more</Link>
-              </div>
             </div>
         </div>
         <div className="w-1/2 h-full p-24">
