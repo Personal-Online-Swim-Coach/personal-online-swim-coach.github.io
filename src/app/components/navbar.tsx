@@ -57,7 +57,7 @@ const Navbar = () => {
         </div>
       </div>
       {MobileNavVisible && <div>
-        <ul className="absolute z-50 bg-white h-full w-full text-center gap-x-16 ">
+        <ul className="fixed z-50 bg-white h-full w-full text-center gap-x-16 ">
           <li className="text-lg h-16 border-b-2 p-4 mx-4">
             <Link href="/" onClick={() => setMobileNavVisible(false)}>
                 <p className="text-blue-darkest">Home</p>
