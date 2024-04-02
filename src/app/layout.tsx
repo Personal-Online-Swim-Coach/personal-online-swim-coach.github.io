@@ -3,7 +3,6 @@ import { Figtree } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import ContactBar from "./components/contactbar";
-import Temp from "./components/temp-page";
 
 const inter = Figtree({subsets: ['latin']});
 
